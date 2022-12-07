@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Uchirai's Website</title>
+</head>
+<body>
+    <div class="main-nav">
+        <ul class="main-nav-list">
+            <!-- <li id="site-title"><a href="">Uchirai Govere</a></li> -->
+            <li><a href="#div2">About</a></li>
+            <li><a href="#div3">Skills</a></li>
+            <li><a href="#div4">Work</a></li>
+            <li><a href="#div5">Contact</a></li>
+        </ul>
+    </div>
+    <div id="div1" class="my-divs">
+        <div class="img-div">
+            <div>
+                <img src="img/rsz_african-4214917.jpg" alt="" width="200px">
+            </div>
+        </div>
+
+        <h1>Uchirai Govere</h1>
+        <i>Web developer</i>
+        <p>Creative web developer with a focus on <br> aesthetic simplicity and user accessibiity.  
+        </p>
+        
+        <button id="firstBtn"><a href="#div5">Let's Collaborate!</a></button>
+        
+
+    </div>
+
+    <a href="#div2" id="btn1">Go to the next Section</a>
+    <div id="arrow1" class="arrow-down"></div>
+
+    <div id="div2" class="my-divs">
+        <div>
+            <img id="abt" src="img/about.png" alt="" >
+            <h1>What do I do?</h1>
+            <p>I build sleek, responsive and <br> attractive websites, for business, commerce <br> and personal needs.
+            </p>
+        </div>
+    </div>
+
+        <a href="#div3" id="btn2">Go to the next Section</a>
+        <div id="arrow2" class="arrow-down"></div>
+
+       
+        <div id="div3" class="my-divs">
+            <div id="skill_title">
+                <h1>My toolbox</h1>
+            </div>
+            <div>
+                <img src="img/settings.png" alt="" width="100px">
+            </div>
+            <div class="skills-wrap">
+                <div class="skills">
+                    <img src="img/html.png" alt="">
+                    <h3>HTML</h3>
+                    <p></p>
+                </div>
+                <div class="skills">
+                    <img src="img/css.png" alt="">
+                    <h3>CSS</h3>
+                    <p></p>
+                </div>
+                <div class="skills">
+                    <img src="img/js.png" alt="">
+                    <h3>JAVASCRIPT</h3>
+                    <p></p>
+                </div>
+                <div class="skills">
+                    <img id="pic40" src="img/php-white.jpeg" alt="">
+                    <h3>PHP</h3>
+                    <p></p>
+                </div>
+                <div class="skills">
+                    <img id="pic50" src="img/python new black.jpeg">
+                    <h3>PYTHON</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+        <a href="#div4" id="btn3">Go to the next Section</a>
+        <div id="arrow3" class="arrow-down"></div>
+    
+
+
+        <div id="div4">
+            <div id="skill_title">
+                <h1>What I build</h1>
+            </div>
+            <div class="skills-wrap">
+                <div class="skills">
+                    <img id="pic2" src="img/blog.png" alt="">
+                    <h3>Blogs</h3>
+                    <p>I build eye catching blogs for content creators and businesses</p>
+                </div>
+                <div class="skills">
+                    <img id="pic1" src="img/app icon.png" alt="">
+                    <h3>Web apps</h3>
+                    <p>I build responsive and highly functional web apps for whatever your use case may be</p>
+                </div>
+                <div class="skills">
+                    <img id="pic3" src="img/web icon.png" alt="">
+                    <h3>Miscallaneous</h3>
+                    <p> Login pages, web apps, forms, navigation bars etc</p>
+                </div>
+        </div>
+            <a href="#div5" id="btn4">Go to the next Section</a>
+            <div id="arrow4" class="arrow-down"></div>
+
+
+    <div id="div5" class="my-divs">
+        <div class="overlay">
+            <h1>Contact me</h1>
+            <p class="contact">Send me a message and I'll get back to you as soon as I can</p>
+            <form action="https://formspree.io/f/xlevzoyz" method="POST">
+                <!-- <input name="name" type="text" id="name" placeholder="Your name" required>
+                <input name="_replyto" type="text" id="email" placeholder="Your email" required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Type your message here..." required></textarea>
+                <button type="submit">Submit</button> -->
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                  </label>
+                  <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                  </label>
+                  <!-- your other form fields go here -->
+                  <button id="sendBtn" type="submit">Send</button>
+            </form>
+            <a href="#div1" id="btn5"></a>
+            <div id="arrow5" class="arrow-up"></div>
+       
+        </div>    
+    </div>
+    <hr>
+    <div id="logos">
+        <div>
+            <a id="logobtn1" href=""></a>
+            <img id="logo1" src="img/twitter.png" alt="" width="50px">
+        </div>
+        <div>
+            <a id="logobtn2" href="https://www.linkedin.com/in/uchirai-govere-917415110/"></a>
+            <img id="logo2" src="img/linkedin.png" alt="" width="50px">
+        </div>
+        <div>
+            <a id="logobtn3" href="https://github.com/UchiG"></a>
+            <img id="logo3" src="img/github.png" alt=""
+        width="50px">
+        </div>
+    </div>
+
+        <script src="app.js"></script>
+</body>
+</html>
+
